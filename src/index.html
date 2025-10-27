@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/@vscode/codicons/dist/codicon.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="bg-black text-white box-border">
+    <div>
+      <div class="flex p-4 max-lg:p-4">
+        <div class="hidden max-xl:block">
+          <a href="./menu.html"
+            ><span class="material-symbols-outlined"> menu </span></a
+          >
+        </div>
+        <div class="p-2.5">
+          <img src="./multimedia/download (1).svg" alt="" />
+        </div>
+        <div class="flex max-md:hidden">
+          <div class="p-2 hover:text-[#ffa200] hover:cursor-pointer flex">
+            <p class="text-[#1b2520] mr-2">|</p>
+            <p>Get plus <span class="text-[#ffa200]">+</span></p>
+          </div>
+          <div>
+            <div class="flex bg-[#212121] rounded-3xl p-1 ml-3 max-lg:w-[50%] max-lg:ml-1">
+              <!-- <img src="./multimedia/download (3).svg" alt="" class="w-6"> -->
+              <span class="material-symbols-outlined text-[#ffa200] p-1">
+                search
+              </span>
+              <input
+                type="text"
+                placeholder="search for artist,songs,albums "
+                class="focus:placeholder-transparent w-[270px] outline-none p-1 max-lg:w-full"
+              />
+            </div>
+          </div>
+          <div class="flex max-xl:hidden items-center">
+            <div class="group relative hover:cursor-pointer">
+              <p class="font-bold text-[#ffa200] p-2 ml-3">DISCOVER</p>
+              <div
+                class="bg-[#222222] p-3 rounded-2xl leading-10 hidden absolute group-hover:block w-[150px]"
+              >
+                <p class="hover:text-[#ffa200] hover:cursor-pointer">
+                  Trending songs
+                </p>
+                <p class="hover:text-[#ffa200] hover:cursor-pointer">
+                  Trending Albums
+                </p>
+                <p class="hover:text-[#ffa200] hover:cursor-pointer">
+                  Top Songs
+                </p>
+                <p class="hover:text-[#ffa200] hover:cursor-pointer">
+                  Top Albums
+                </p>
+                <p class="hover:text-[#ffa200] hover:cursor-pointer">
+                  Recently Added
+                </p>
+                <p class="hover:text-[#ffa200] hover:cursor-pointer">
+                  Accounts for you
+                </p>
+              </div>
+            </div>
+            <p
+              class="font-bold p-2 ml-2 hover:text-[#ffa200] hover:cursor-pointer"
+            >
+              PLAYLISTS
+            </p>
+            <div class="group relative hover:cursor-pointer">
+              <!-- <a href="./original.html"  class="font-bold p-2 ml-2 hover:text-[#ffa200] hover:cursor-pointer ">ORIGINALS</a> -->
+              <a
+                href="./original.html"
+                class="font-bold p-2 ml-2 hover:text-[#ffa200] hover:cursor-pointer"
+                >ORIGINALS</a
+              >
+              <div
+                class="bg-[#222222] p-3 rounded-2xl leading-10 hidden absolute group-hover:block w-[200px]"
+              >
+                <p
+                  class="text-[15px] hover:text-[#ffa200] hover:cursor-pointer"
+                >
+                  Audiomack world
+                </p>
+                <p class="hover:text-[#ffa200] hover:cursor-pointer">
+                  Artists Guide
+                  <span
+                    class="material-symbols-outlined w-5 !text-[15px] ml-9 hover:!text-white hover:cursor-pointer"
+                    >open_in_new
+                  </span>
+                </p>
+                <p class="hover:text-[#ffa200] hover:cursor-pointer">
+                  Audiomack studio
+                  <span class="material-symbols-outlined !text-[15px]">
+                    open_in_new
+                  </span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="flex p-2 ml-13 max-lg:ml-0 max-md:ml-0">
+            <a
+              href="./login.html"
+              class="font-bold mr-2 hover:text-[#ffa200] hover:cursor-pointer"
+              >Create an Account</a
+            >
+            <!-- <p class="font-bold mr-2 hover:text-[#ffa200] hover:cursor-pointer ">Create an Account </p> -->
+            <p class="text-[#ffa200]">|</p>
+            <p class="font-bold ml-2 hover:text-[#ffa200] hover:cursor-pointer">
+              Sign In
+            </p>
+          </div>
+          <button
+            class="font-bold bg-[#212121] rounded-2xl p-3 ml-5 hover:cursor-pointer hover:opacity-70"
+          >
+            <span class="material-symbols-outlined text-[#ffa200] !text-[15px]">
+              upload_2
+            </span>
+            UPLOAD
+          </button>
+        </div>
+        <div class="flex ml-auto hidden max-md:block">
+          <span class="material-symbols-outlined !text-4xl"> search </span>
+          <span class="material-symbols-outlined !text-4xl ml-3">
+            account_circle
+          </span>
+        </div>
+      </div>
+      <hr class="border-[#2b2b2b] max-md:hidden" />
+      <div
+        class="flex mt-5 border-1 border-[#2b2b2b] bg-[url(./multimedia/banner@2x.avif)] bg-[#121212] h-[235px] bg-no-repeat max-md:bg-none max-md:m-5 max-md:p-5 max-md:h-full"
+      >
+        <div
+          class="p-7 ml-[600px] text-center max-xl:ml-[450px] max-lg:ml-[200px] max-md:ml-0"
+        >
+          <h1 class="text-4xl font-bold max-md:text-[15px]">
+            The music platform
+            <span class="text-[#ffa200]">empowering artists.</span>
+          </h1>
+          <p
+            class="font-semibold text-[20px] w-[80%] text-[#b6b6b6] ml-15 max-xl:w-full max-xl:ml-0 max-md:text-[10px]"
+          >
+            Audiomack is an artist-first music platform that helps musicians
+            reach and engage fans across the world.
+          </p>
+          <button
+            class="m-3 text-black bg-[#ffa200] rounded-3xl font-bold p-3 hover:opacity-70 max-md:text-[8px]"
+          >
+            Upload your music for FREE
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex mt-17 mb-20">
+      <div
+        class="w-[25%] h-[600px] overflow-y-auto max-md:hidden pb-15 sticky top-20"
+      >
+        <div class="font-bold ml-7 text-[#c6c6c6] leading-12">
+          <p class="text-[#ffa200] rounded-2xl bg-black pl-1.5">Browse</p>
+          <p class="rounded-2xl bg-[#1a1a1a] pl-1.5">Home</p>
+          <p class="rounded-2xl bg-black pl-1.5">Trending songs</p>
+          <p class="rounded-2xl bg-black pl-1.5">Recently Added</p>
+          <p class="rounded-2xl bg-black pl-1.5">Accounts for you</p>
+          <hr class="border-[#2b2b2b] mt-5" />
+        </div>
+        <div class="font-bold ml-8 text-[#c6c6c6] leading-12">
+          <p class="text-[#ffa200]">CHARTS</p>
+          <p>Top Songs</p>
+          <p>Top Albums</p>
+        </div>
+        <div class="font-bold text-[#ffa200] ml-8">Genres</div>
+        <div class="flex flex-wrap gap-3 ml-8">
+          <button class="border-[#ffa200] border-2 rounded-3xl p-2">
+            All Genres
+          </button>
+          <button
+            class="border-[#222222] border-2 rounded-3xl p-2 hover:border-white"
+          >
+            Afrosounds
+          </button>
+          <button
+            class="border-[#222222] border-2 rounded-3xl p-2 hover:border-white"
+          >
+            Hip-Hop/Rap
+          </button>
+          <button
+            class="border-[#222222] border-2 rounded-3xl p-2 hover:border-white"
+          >
+            Latin
+          </button>
+          <button
+            class="border-[#222222] border-2 rounded-3xl p-2 hover:border-white"
+          >
+            Jazz/Blues
+          </button>
+          <button
+            class="border-[#222222] border-2 rounded-3xl p-2 hover:border-white"
+          >
+            Carribean
+          </button>
+          <button
+            class="border-[#222222] border-2 rounded-3xl p-2 hover:border-white"
+          >
+            Pop
+          </button>
+          <button
+            class="border-[#222222] border-2 rounded-3xl p-2 hover:border-white"
+          >
+            R&B
+          </button>
+          <button
+            class="border-[#222222] border-2 rounded-3xl p-2 hover:border-white"
+          >
+            Gospel
+          </button>
+          <button
+            class="border-[#222222] border-2 rounded-3xl p-2 hover:border-white"
+          >
+            Electronic
+          </button>
+          <button
+            class="border-[#222222] border-2 rounded-3xl p-2 hover:border-white"
+          >
+            Rock
+          </button>
+          <button
+            class="border-[#222222] border-2 rounded-3xl p-2 hover:border-white"
+          >
+            Punjabi
+          </button>
+          <button
+            class="border-[#222222] border-2 rounded-3xl p-2 hover:border-white"
+          >
+            Country
+          </button>
+          <button
+            class="border-[#222222] border-2 rounded-3xl p-2 hover:border-white"
+          >
+            Instrumental
+          </button>
+          <button
+            class="border-[#222222] border-2 rounded-3xl p-2 hover:border-white"
+          >
+            Podcast
+          </button>
+        </div>
+      </div>
+      <div
+        class="w-[75%] ml-8 h-[580px] overflow-y-scroll [scrollbar-width:none] max-md:w-[100%] max-md:m-5"
+      >
+        <div class="flex justify-between font-bold">
+          <p class="text-[20px]">TRENDING SONGS</p>
+          <p class="text-[#ffa200]">VIEW ALL</p>
+        </div>
+        <div class="flex">
+          <div class="w-19% p-1.5 text-center group">
+            <!-- <img
+
+              src="./multimedia/c4d0022880a01fb5778f724ea75fdad190365fabb332cc7c60f5fec984b7aab2.avif"
+              alt=""
+              class="relative"
+            /> -->
+            <iframe src="https://audiomack.com//embed/cobhamsasuquo/song/jah-eli-jah"
+             scrolling="no" width="100%" height="252" frameborder="0" title="Jah Eli Jah"></iframe>
+            
+            <!-- <span class="material-symbols-outlined absolute top-158 !text-[50px] bg-[#ffa200]
+      text-black rounded-3xl left-138 hidden ">play_circle</span> -->
+          </div>
+          <div class="w-19% p-1.5 text-center">
+            <iframe src="https://audiomack.com//embed/simi/song/3-jericho-ft-patoranking" scrolling="no"
+             width="100%" height="252" frameborder="0" title="Jericho"></iframe>
+            <!-- <img
+              src="./multimedia/c6055824fced296cadd7815ed32219f888abba98531aba22815fc06f792559e1.avif"
+              alt=""
+              class="relative"
+            />
+            <p>Cochise</p>
+            <p class="font-bold">BOMBA</p> -->
+            <!-- <span class="material-symbols-outlined absolute top-158 !text-[50px] bg-[#ffa200]
+      text-black rounded-3xl left-198">play_circle</span> -->
+          </div>
+          <div class="w-19% p-1.5 text-center">
+            <iframe src="https://audiomack.com//embed/patorankingfire/song/my-woman-my-everything-ft-wande-coal" scrolling="no"
+             width="100%" height="252" frameborder="0" title="My Woman My Everything"></iframe>
+            <!-- <img src="./multimedia/19576989-1.avif" alt="" />
+            <p>Frank Beats</p>
+            <p class="font-bold">Punk Rock</p> -->
+            <!-- <span class="material-symbols-outlined absolute top-158 !text-[50px] bg-[#ffa200]
+      text-black rounded-3xl left-260">play_circle</span> -->
+          </div>
+          <div class="w-19% p-1.5 text-center">
+            <iframe src="https://audiomack.com//embed/sped101/song/mixed-signals-sped-up" scrolling="no"
+             width="100%" height="252" frameborder="0" title="Mixed Signals Sped up"></iframe>
+            <!-- <img
+              src="./multimedia/9ee61883cda1d3f93beff79479839a4362dec6391ccaed8fd44c578c2c18f9fe.avif"
+              alt=""
+            />
+            <p class="">lelo</p> 
+            <p class="font-bold">Banksy</p> -->
+            <!-- <span class="material-symbols-outlined absolute top-158 !text-[50px] bg-[#ffa200]
+      text-black rounded-3xl left-320">play_circle</span> -->
+          </div>
+        </div>
+        <div class="flex justify-between font-bold mt-4">
+          <p class="text-[20px]">TRENDING ALBUMS</p>
+          <p class="text-[#ffa200]">VIEW ALL</p>
+        </div>
+        <div class="flex">
+          <div class="w-19% p-1.5 text-center">
+            <img
+              src="./multimedia/2a8aff722386722a8e850baeee2dcd430711336e7beff25a73b5665a3f384abc.avif"
+              alt=""
+            />
+            <p>Jackboy</p>
+            <p class="font-bold">In God's Hands</p>
+          </div>
+          <div class="w-19% p-1.5 text-center">
+            <img
+              src="./multimedia/d956629e65e3a9a99d5d696b727a6bd923f48c519556ca3ae781e972fab16cf1.avif"
+              alt=""
+            />
+            <p>Hurricane Wisdom</p>
+            <p class="font-bold">Perfect storm</p>
+          </div>
+          <div class="w-19% p-1.5 text-center">
+            <img
+              src="./multimedia/c4d0022880a01fb5778f724ea75fdad190365fabb332cc7c60f5fec984b7aab2.avif"
+              alt=""
+            />
+            <p>Patoranking</p>
+            <p class="font-bold">No Jonze</p>
+          </div>
+          <div class="w-19% p-1.5 text-center">
+            <img
+              src="./multimedia/5a9e082411807f3babf8945fae2631ef9e80ece2fd19807aff132f4ebd951425.avif"
+              alt=""
+            />
+            <p class="">Zlatan</p>
+            <p class="font-bold">Symbol Of Hope</p>
+          </div>
+        </div>
+        <div class="flex font-bold mt-4">
+          <p class="text-[20px]">TOP AUDIOMACK PLAYLISTS</p>
+        </div>
+        <div class="flex">
+          <div class="w-19% p-1.5">
+            <img
+              src="./multimedia/ff3ce80ce74e874bd523913febe7bd1010037a487303f3c7347d6ca0e71d4085.avif"
+              alt=""
+            />
+            <p class="font-bold">Verified:Hip hop</p>
+            <p class="text-[13px] text-[#999999]">
+              Youngboy Never Broke Again, Kodak Black, Lil Baby, Gunna, Future &
+              more!
+            </p>
+          </div>
+          <div class="w-19% p-1.5">
+            <img
+              src="./multimedia/34e899f7b41c6a152a306a4ba42595bb85377ba7c9d94bd912191cb4332ee8b0.avif"
+              alt=""
+            />
+            <p class="font-bold">Verified: Afrosounds</p>
+            <p class="text-[13px] text-[#999999]">
+              Press play on the best & biggest sounds out of Africa 🌍
+            </p>
+          </div>
+          <div class="w-19% p-1.5">
+            <img
+              src="./multimedia/13dc60ce67b5e19b43e7c5759a3ae306241f2a3aa3a5e3c7c6d682b5f0ab50ec.avif"
+              alt=""
+            />
+            <p class="font-bold">Verified: R&B</p>
+            <p class="text-[13px] text-[#999999]">
+              4Batz, Tems, Partynextdoor & more!
+            </p>
+          </div>
+          <div class="w-19% p-1.5">
+            <img
+              src="./multimedia/e769a65b1b9fcb23e56a4c458ea5c74b6d31c9bda2c6bcca81089faa7067960b.avif"
+              alt=""
+            />
+            <p class="font-bold">Verified: Pop</p>
+            <p class="text-[13px] text-[#999999]">
+              Hot pop & future hits! Tap in now
+            </p>
+          </div>
+        </div>
+        <div class="flex justify-between font-bold mt-4">
+          <p class="text-[20px]">TOP SONGS IN NG</p>
+          <p class="text-[#ffa200]">VIEW ALL</p>
+        </div>
+        <div class="flex">
+          <div class="w-19% p-1.5 text-center">
+            <img src="./multimedia/4ef02a3fed.avif" alt="" />
+            <p>Rio Da Young OG</p>
+            <p class="font-bold">Different Music</p>
+          </div>
+          <div class="w-19% p-1.5 text-center">
+            <img src="./multimedia/90ad71c4fb.avif" alt="" />
+            <p>Young Boy Never</p>
+            <p class="font-bold">Shot callin</p>
+          </div>
+          <div class="w-19% p-1.5 text-center">
+            <img src="./multimedia/20d5bddfc5.avif" alt="" />
+            <p>Young Boy Never</p>
+            <p class="font-bold">Wine And Dine</p>
+          </div>
+          <div class="w-19% p-1.5 text-center">
+            <img
+              src="./multimedia/c4d0022880a01fb5778f724ea75fdad190365fabb332cc7c60f5fec984b7aab2.avif"
+              alt=""
+            />
+            <p class="">Patoranking</p>
+            <p class="font-bold">No Jonze</p>
+          </div>
+        </div>
+        <div class="flex justify-between font-bold mt-4">
+          <p class="text-[20px]">AUDIOMACK WORLD</p>
+          <p class="text-[#ffa200]">VISIT AUDIOMACK WORLD</p>
+        </div>
+        <div class="flex">
+          <div class="w-[50%] p-1.5">
+            <img src="./multimedia/Protect-World-Header-16x9-1.avif" alt="" />
+            <p class="font-bold">You Need To Hear: Protect</p>
+            <p class="text-[13px] text-[#999999]">
+              Meet the Buffalo rapper breaking out of the underground.
+            </p>
+          </div>
+          <div class="w-[50%] p-1.5">
+            <img src="./multimedia/h-16x9--1-.avif" alt="" />
+            <p class="font-bold">You Need to Hear: Huan62</p>
+            <p class="text-[13px] text-[#999999]">
+              Meet the Buffalo rapper breaking out of the underground.
+            </p>
+          </div>
+        </div>
+        <div class="flex justify-between font-bold mt-4">
+          <p class="text-[20px]">RECENTLY ADDED</p>
+          <p class="text-[#ffa200]">VIEW ALL</p>
+        </div>
+        <div class="flex">
+          <div class="w-19% p-1.5 text-center">
+            <img
+              src="./multimedia/c4d0022880a01fb5778f724ea75fdad190365fabb332cc7c60f5fec984b7aab2.avif"
+              alt=""
+            />
+            <p>Patoranking</p>
+            <p class="font-bold">No Jonze</p>
+          </div>
+          <div class="w-19% p-1.5 text-center">
+            <img
+              src="./multimedia/c4d0022880a01fb5778f724ea75fdad190365fabb332cc7c60f5fec984b7aab2.avif"
+              alt=""
+            />
+            <p>Patoranking</p>
+            <p class="font-bold">No Jonze</p>
+          </div>
+          <div class="w-19% p-1.5 text-center">
+            <img
+              src="./multimedia/c4d0022880a01fb5778f724ea75fdad190365fabb332cc7c60f5fec984b7aab2.avif"
+              alt=""
+            />
+            <p>Patoranking</p>
+            <p class="font-bold">No Jonze</p>
+          </div>
+          <div class="w-19% p-1.5 text-center">
+            <img
+              src="./multimedia/c4d0022880a01fb5778f724ea75fdad190365fabb332cc7c60f5fec984b7aab2.avif"
+              alt=""
+            />
+            <p class="">Patoranking</p>
+            <p class="font-bold">No Jonze</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-[#121212] p-47 max-xl:p-20">
+      <img src="./multimedia/icons8-audiomack-48.png" alt="" class="mx-auto" />
+
+      <div class="flex justify-center gap-6 m-2 max-md:flex-wrap">
+        <img
+          src="./multimedia/icons8-twitter-50.png"
+          alt=""
+          class="w-[30px] h-[30px]"
+        />
+        <img
+          src="./multimedia/icons8-facebook-50 (2).png"
+          alt=""
+          class="w-[30px] h-[30px]"
+        />
+        <img
+          src="./multimedia/icons8-instagram-50.png"
+          alt=""
+          class="w-[30px] h-[30px]"
+        />
+        <img
+          src="./multimedia/icons8-youtube-50.png"
+          alt=""
+          class="w-[30px] h-[30px]"
+        />
+        <img
+          src="./multimedia/icons8-tiktok-50.png"
+          alt=""
+          class="w-[30px] h-[30px]"
+        />
+        <img
+          src="./multimedia/icons8-message-32.png"
+          alt=""
+          class="w-[30px] h-[30px]"
+        />
+      </div>
+      <div
+        class="flex gap-6 font-bold justify-center hover:cursor-pointer max-md:flex-wrap"
+      >
+        <a class="hover:text-[#f59c01]" href="./about.html">ABOUT</a>
+        <!-- <p class="hover:text-[#f59c01]">ABOUT</p> -->
+        <a href="./help.html" class="hover:text-[#f59c01]">HELP</a>
+        <p class="hover:text-[#f59c01]">BUSINESS INQUIRES</p>
+        <p class="hover:text-[#f59c01]">STYLEGUIDE</p>
+        <p class="hover:text-[#f59c01]">CREATOR APP</p>
+      </div>
+      <div class="flex gap-4 justify-center hover:cursor-pointer mt-5">
+        <div class="rounded-[10px] p-2 hover:text-[#f59c01]">
+          <img src="./multimedia/download (2).svg" alt="" />
+          <!-- <p class="text-[10px]">download the <br> <span class="font-bold text-[15px]">Creator App</span> </p> -->
+        </div>
+        <div class="border-2 rounded-[10px] p-2 hover:text-[#f59c01] flex">
+          <img
+            src="./multimedia/icons8-audiomack-48.png"
+            alt=""
+            class="h-[25px]"
+          />
+          <p class="text-[10px]">
+            download the <br /><span class="font-bold text-[13px]"
+              >Audiomack App</span
+            >
+          </p>
+        </div>
+      </div>
+      <p class="text-[14px] text-center mt-7">
+        Audiomack is an on-demand music streaming and audio discovery platform
+        that allows artists and creators to upload limitless music and podcasts
+        for listeners through its mobile apps and website.
+      </p>
+      <div
+        class="flex gap-4 font-bold justify-center hover:cursor-pointer mt-7 max-lg:gap-3 max-lg:flex-wrap"
+      >
+        <p class="hover:text-[#f59c01]">Legal & DMCA</p>
+        <p class="hover:text-[#f59c01]">Privacy Policy</p>
+        <p class="hover:text-[#f59c01]">Terms of Service</p>
+        <p class="hover:text-[#f59c01]">Report a Vulnerability</p>
+        <p class="hover:text-[#f59c01]">Do not sell my info</p>
+        <p class="hover:text-[#f59c01]">Your Privacy Rights</p>
+      </div>
+      <p class="text-center mt-10">© 2025 Audiomack - All Rights Reserved</p>
+    </div>
+  </body>
+</html>
